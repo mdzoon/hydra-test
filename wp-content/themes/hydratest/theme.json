@@ -41,7 +41,7 @@
 			"gradients": [
 				{
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%)",
+					"gradient": "linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%)",
 					"name": "Vertical soft beige to white"
 				},
 				{
@@ -279,7 +279,7 @@
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.9rem",
+					"size": "12px",
 					"slug": "small"
 				},
 				{
@@ -759,7 +759,7 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color--contrast)"					
 				},
 				"css": " &:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull){width: var(--wp--preset--spacing--60)}"
 			},
@@ -790,6 +790,9 @@
 					"fontStyle": "normal",
 					"fontWeight": "600"
 				}
+			},
+			"core/social-link": {
+				"css": "{border:5px solid var(--wp--preset--color--base-2)}"
 			}
 		},
 		"color": {
