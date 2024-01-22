@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer with colophon, 4 columns
- * Slug: twentytwentyfour/footer
+ * Slug: hydratest/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -163,15 +163,3 @@
 	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-
-
-<style>
-.lg-visible {
-    display: none;
-}
-@media only screen and (min-width: 782px) {
-    .lg-visible {
-        display: block;
-    }
-}	
-</style>
