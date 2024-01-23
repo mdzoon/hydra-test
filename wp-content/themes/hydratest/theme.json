@@ -956,6 +956,11 @@
 	],
 	"customTemplates": [
 		{
+			"name": "hydra-home",
+			"postTypes": ["page"],
+			"title": "Hydra Home"
+		},		
+		{
 			"name": "page-no-title",
 			"postTypes": ["page"],
 			"title": "Page No Title"
