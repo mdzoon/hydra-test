@@ -1,0 +1,26 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.md-visible {
+    display: none !important;
+}
+@media only screen and (min-width: 782px) {
+    .md-visible {
+        display: block !important;
+    }
+}
+
+.lg-visible {
+    display: none !important;
+}
+@media only screen and (min-width: 992px) {
+    .lg-visible {
+        display: flex !important;
+    }
+    .lg-w-50 {
+        flex-basis: 50%;
+    }
+}

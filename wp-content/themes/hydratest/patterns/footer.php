@@ -22,8 +22,8 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"6px","className":"lg-visible"} -->
-		<div class="wp-block-column lg-visible" style="flex-basis:6px">
+		<!-- wp:column {"width":"6px","className":"md-visible"} -->
+		<div class="wp-block-column md-visible" style="flex-basis:6px">
 			<!-- wp:spacer {"height":"150px","style":{"color":{"gradient":"linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%)"}}} -->
 			<div style="background:linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%);height:150px;" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->			
@@ -56,8 +56,8 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"6px","className":"lg-visible"} -->
-		<div class="wp-block-column lg-visible" style="flex-basis:6px">
+		<!-- wp:column {"width":"6px","className":"md-visible"} -->
+		<div class="wp-block-column md-visible" style="flex-basis:6px">
 			<!-- wp:spacer {"height":"150px","style":{"color":{"gradient":"linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%)"}}} -->
 			<div style="background:linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%);height:150px;" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->			
@@ -91,8 +91,8 @@
 		</div>
 		<!-- /wp:column -->		
 
-		<!-- wp:column {"width":"6px","className":"lg-visible"} -->
-		<div class="wp-block-column lg-visible" style="flex-basis:6px">
+		<!-- wp:column {"width":"6px","className":"md-visible"} -->
+		<div class="wp-block-column md-visible" style="flex-basis:6px">
 			<!-- wp:spacer {"height":"150px","style":{"color":{"gradient":"linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%)"}}} -->
 			<div style="background:linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(129,118,175,1) 20%, rgba(192,183,232,1) 35%, rgba(192,183,232,1) 65%, rgba(129,118,175,1) 80%, rgba(52,48,69,1) 100%);height:150px;" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->			

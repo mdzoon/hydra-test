@@ -14,7 +14,7 @@
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
-	 * @since Skatepark 1.0
+	 * @since Hydratest 1.0
 	 *
 	 * @return void
 	 */
@@ -31,6 +31,43 @@
 endif;
 add_action( 'after_setup_theme', 'hydratest_support' );
 
+if ( ! function_exists( 'hydratest_styles' ) ) :
+	/**
+	 * Enqueue styles.
+	 *
+	 * @since Hydratest 1.0
+	 *
+	 * @return void
+	 */
+	function hydratest_styles() {
+		// Register theme stylesheet.
+		wp_register_style(
+			'hydratest-style',
+			get_stylesheet_directory_uri() . '/assets/theme.css',
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'hydratest-style' );
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'hydratest_styles' );
+
+if ( ! function_exists( 'hydratest_editor_styles' ) ) :
+	/**
+	 * Enqueue editor styles.
+	 *
+	 * @since Hydratest 1.0
+	 *
+	 * @return void
+	 */
+	function hydratest_editor_styles() {
+		add_editor_style(
+		    get_stylesheet_directory_uri() . '/assets/theme.css'
+		);
+	}
+endif;
+add_action( 'admin_init', 'hydratest_editor_styles' );
 
 /**
  * Render default Site Logo if is empty.
