@@ -42,12 +42,12 @@
 				{
 					"slug": "gradient-1",
 					"gradient": "linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%)",
-					"name": "Vertical soft beige to white"
+					"name": "Vertical, primary to secondary - buttons"
 				},
 				{
 					"slug": "gradient-2",
-					"gradient": "linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%)",
-					"name": "Vertical soft sandstone to white"
+					"gradient": "radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);",
+					"name": "Radial, dark to darker primary - cards"
 				},
 				{
 					"slug": "gradient-3",
@@ -122,7 +122,7 @@
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#A4A4A4",
+					"color": "#c0b7e854",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -147,7 +147,7 @@
 					"slug": "accent-4"
 				},
 				{
-					"color": "#b5bdbc",
+					"color": "#0e0e0e52",
 					"name": "Accent / Five",
 					"slug": "accent-5"
 				}
