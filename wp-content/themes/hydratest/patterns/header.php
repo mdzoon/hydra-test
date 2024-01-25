@@ -14,8 +14,8 @@
         <!-- wp:columns {"isStackedOnMobile":false,"style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
         <div class="wp-block-columns is-not-stacked-on-mobile">
             
-        <!-- wp:column {"width":"20%"} -->
-            <div class="wp-block-column" style="flex-basis:20%">
+            <!-- wp:column {"width":"80%","className":"sm-w-30 lg-w-20"} -->
+            <div class="wp-block-column sm-w-30 lg-w-20" style="flex-basis:80%">
                 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group">
                     <!-- wp:site-logo {"width":60,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
@@ -25,8 +25,8 @@
             </div>
             <!-- /wp:column -->
     
-            <!-- wp:column {"width":"80%","className":"flex-center lg-w-50"} -->
-            <div class="wp-block-column flex-center lg-w-50" style="flex-basis:80%">
+            <!-- wp:column {"width":"20%","className":"flex-center sm-w-70 lg-w-50"} -->
+            <div class="wp-block-column flex-center sm-w-70 lg-w-50" style="flex-basis:20%">
                 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
                 <div class="wp-block-group">
                 
